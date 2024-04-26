@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 url: "https://siwonryu.com"  # 사이트 URL을 여기에 입력
-baseurl: "https://siwonryu.com"
+# baseurl: "https://siwonryu.com"
 # minimal_mistakes_skin: default
 # minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "air" #, "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
