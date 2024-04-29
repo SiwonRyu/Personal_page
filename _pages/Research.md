@@ -30,6 +30,8 @@ Working Papers
     **Abstract:** This study analyzes identifications and estimations in the presence of social interactions. The potential outcomes are functions of own treatment status and exposures, and the exposure is a function of neighbors’ treatment status. If the distribution of exposures is determined by own treatment status, the treatment effect can be decomposed into direct and indirect effects using an approach mediation model. Suppose the exposure distribution is from the underlying random graph of the social network. Then, it can be interpreted as the treatment has indirect effects by changing the underlying network structure. Therefore, the exposures play the role of mediator, and the variation of the mediator due to the treatment status identifies the direct and indirect treatment effects separately. Monte-Carlo  imulation studies and the empirical application of the impact of co-educated high school on academic performance show the proposed estimators and decompositions work well.
 
 
+<div style="margin-top: 50px;">
+</div>
 Work in progress
 ======
 * 
