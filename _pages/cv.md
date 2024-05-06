@@ -6,4 +6,4 @@ author_profile: true
 ---
 
  
-[CV is here](/assets/docs/CV.pdf)
+[Download CV](/assets/docs/CV.pdf)
