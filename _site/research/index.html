@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.26.0 by Michael Rose
+  Minimal Mistakes Jekyll Theme 4.26.1 by Michael Rose
   Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
@@ -142,7 +142,7 @@
 <ul>
   <li>
     <h2 id="decomposition-of-causal-effect-accounting-for-network-change-job-market-paper">“Decomposition of Causal Effect Accounting for Network Change” (Job market paper)</h2>
-    <p><strong>Abstract:</strong> This study analyzes an identification and estimation procedure for the causal treatment effect, explicitly considering network changes resulting from treatment. Compared to the classical approach in program evaluation literature that assumes independent units, recent empirical studies emphasize the significance of spillover effects. However, these studies often assume that the underlying network is fixed or unaffected by treatment. At the same time, there has been some empirical evidence that treatment can also affect the network. This study analyzes the identification of the causal effect of treatment with interference between units and also accounts for possible network changes. The main contribution of this study is the decomposition of the causal effect into two distinct parts: the effect of treatment when the network remains unchanged and the effect when only the network structure is changed by the treatment. This approach enhances our understanding of the mechanisms of a policy or program by explicitly considering counterfactual scenarios in which the network is changed or unchanged due to treatment. Additionally, the study addresses quasi-experimental situations, providing a Difference-in-Differences approach.</p>
+    <p><strong>Abstract:</strong> This study analyzes the identification and estimation of treatment effects, explicitly considering network changes resulting from the treatment. Compared to the classical literature that assumes independent units, recent studies emphasize the significance of spillover effects. However, these studies often assume that the underlying network is fixed or unaffected by treatment. Meanwhile, there is empirical evidence suggesting that treatment can also affect the network. The purpose of this study is to estimate the causal treatment and spillover effects accounting for the causal network changes from the treatment. The main contribution of this study is the decomposition of the causal effects into two distinct parts: the effect of treatment when the network remains unchanged and the effect when only the network structure is changed by the treatment. This approach enhances our understanding of the mechanisms of a policy or program by considering counterfactual scenarios in which the network is changed or unchanged due to treatment. Additionally, the study addresses quasi-experimental situations, providing a Difference-in-Differences approach.</p>
 
     <ul>
       <li>Latest Version: <a href="/assets/docs/JMP.pdf">[Pdf]</a></li>
@@ -150,7 +150,7 @@
   </li>
   <li>
     <h2 id="local-average-treatment-effects-with-imperfect-compliance-and-interference">“Local Average Treatment Effects with Imperfect Compliance and Interference”</h2>
-    <p><strong>Abstract:</strong> This study addresses the identification and estimation of causal effects in scenarios where units interact and imperfect compliance is present. In cases where treatment take-up is endogenous due to imperfect compliance, the standard solution is to use the treatment assignments as instruments for the treatment take-up to identify the local average treatment effects (LATE). The key assumption for identifying LATE is monotonicity in potential treatments. This paper extends this approach to situations involving the interaction of two units by introducing a weak concept of monotonicity that is a generalization of the restrictions on the potential treatment, such as monotonicity and one-sided noncompliance. Under the weak monotonicity, this study proposes a general identification result in this setting, provided that additional exclusion restrictions for the compliance patterns exist. This identification can be applied to situations where traditional assumptions may not be fully satisfied. A two-stage estimator for the identified parameters is introduced, with its properties evaluated through simulation studies. The proposed method is illustrated by real-world data from a randomized experiment that provided access to a savings account.</p>
+    <p><strong>Abstract:</strong> This study addresses the identification and estimation of causal effects in scenarios where units interact and imperfect compliance is present. When treatment take-up is endogenous due to imperfect compliance, the common solution is to use treatment assignments as instruments for the treatment take-up to identify the local average treatment effects (LATE). The key assumption for identifying LATE is monotonicity in potential treatments. This paper extends this approach to situations involving the interaction of two units by introducing a weak concept of monotonicity, which generalizes the ordering on potential treatment, such as monotonicity and one-sided noncompliance. Under this weak monotonicity, I show that the direct and indirect effects can be identified in this setting if there are additional exclusion restrictions for the compliance patterns. The resulting estimands remain valid even when traditional assumptions are all violated. I propose an estimating procedure for the treatment effects and evaluate its properties through Monte Carlo studies. Additionally, I illustrate the proposed method using an experimental study in Kenya that provided access to a savings account.</p>
 
     <ul>
       <li>Latest Version: <a href="/assets/docs/3YP.pdf">[Pdf]</a></li>
@@ -166,7 +166,7 @@
   </li>
   <li>
     <h2 id="direct-and-indirect-treatment-effects-with-social-interaction">“Direct and Indirect Treatment Effects with Social Interaction”</h2>
-    <p><strong>Abstract:</strong> This study analyzes identifications and estimations in the presence of social interactions. The potential outcomes are functions of own treatment status and exposures, and the exposure is a function of neighbors’ treatment status. If the distribution of exposures is determined by own treatment status, the treatment effect can be decomposed into direct and indirect effects using an approach mediation model. Suppose the exposure distribution is from the underlying random graph of the social network. Then, it can be interpreted as the treatment has indirect effects by changing the underlying network structure. Therefore, the exposures play the role of mediator, and the variation of the mediator due to the treatment status identifies the direct and indirect treatment effects separately. Monte-Carlo  imulation studies and the empirical application of the impact of co-educated high school on academic performance show the proposed estimators and decompositions work well.</p>
+    <p><strong>Abstract:</strong> This study investigates the identification and estimation of treatment effects when units interact with each other through a network, and the underlying network is also influenced by the treatment. Outcomes are determined not only by their own treatment but also by others’ treatments through some statistics, such as the number of treated friends. These statistics are often called exposure, and are generally determined by both the treatment of others and the underlying network structure. If the network is influenced by treatment, then one’s own treatment affects the outcome both directly and indirectly by altering the network. In this scenario, exposure acts as a mediator for the treatment, and thus the variation in the exposure distribution identifies direct and indirect causal effects through a mediation model. I propose a nonparametric estimator, demonstrate its performance using Monte Carlo simulations, and apply it to an empirical study examining the impact of co-education in high schools on academic performance to illustrate the proposed estimator and its decomposition.</p>
 
     <ul>
       <li>Latest Version: <a href="/assets/docs/2YP.pdf">[Pdf]</a></li>
@@ -187,10 +187,8 @@
 <h1 id="work-in-progress">Work in progress</h1>
 <ul>
   <li>
-    <h2 id="when-your-child-is-sick-parental-labor-supply-response-to-severe-child-health-shock-with-jungmin-lee-and-hyuncheol-bryant-kim">“When Your Child Is Sick: Parental Labor Supply Response to Severe Child Health Shock (with Jungmin Lee and Hyuncheol Bryant Kim)”</h2>
-    <p><strong>Abstract:</strong> How do parents change their economic behaviors when their childcare burden significantly increases? This is an important economic question that could have fundamental implications for family decision-making. However, causal evidence on the impacts of children’s health shock is still scarce due to the endogeneity of child health, as well as data limitations. 
-This study examines how an outbreak of childhood cancers, which significantly increases childcare burden, affects parents’ labor supply. We use National Health Insurance System (NHIS) data, which covers the entire population and cancer incidences from 2002 to 2017. To address the endogeneity issue in identification, we use a difference-in-difference approach with coarsened exact matching, which allows us to construct a matched control group with similar characteristics
-We first find that mothers in households with children who have had cancer reduced their labor supply by 8-10 percentage points for three years after cancer diagnosis compared to those without cancer. It takes about seven years for the gap in labor market participation to disappear. However, we do not find evidence that fathers’ labor supply was affected. As a result, the childcare burden from child cancer accelerates the gender pay gap. We also find interesting heterogeneity that for families where the mother is working (and the mother’s income is greater than the father’s income), fathers are also likely to decrease labor supply by 2-4 percentage points during at least one year after cancer diagnosis.</p>
+    <h2 id="heterogeneous-parental-labor-supply-responses-to-childrens-severe-health-shocks-evidence-from-administrative-data-from-south-korea-with-jungmin-lee-and-hyuncheol-bryant-kim">“Heterogeneous Parental Labor Supply Responses to Children’s Severe Health Shocks: Evidence from Administrative Data from South Korea (with Jungmin Lee and Hyuncheol Bryant Kim)”</h2>
+    <p><strong>Abstract:</strong> This study examines the impact of a child’s cancer diagnosis on parents’ labor supply. Using data from South Korea’s National Health Insurance System, we find heterogeneous effects based on gender, parents’ relative income, and employment type. Specifically, we observe that mothers experience a significant decline in employment and income following their child’s cancer diagnosis, while fathers’ employment and income remain relatively unchanged. The decrease in fathers’ labor supply is only observed among those with lower income compared to their spouse, whereas mothers’ employment decreases regardless of relative income. Furthermore, we find that self-employed mothers are less affected compared to wage workers, while the effects on fathers are generally minimal.</p>
   </li>
 </ul>
 
@@ -208,18 +206,12 @@ We first find that mothers in households with children who have had cancer reduc
         <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-        <div class="page__footer-follow">
-  <ul class="social-icons">
-    
-
-    
-
-    
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Siwon Ryu</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
+        <table>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
       </footer>
     </div>
 
