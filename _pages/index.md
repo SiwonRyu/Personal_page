@@ -32,7 +32,7 @@ permalink: /
 <body>
   <div id="container">
     <div id="left">
-      <img src="/assets/images/siwon_trim.jpg" alt="main">
+      <img src="/assets/images/3I2A2240_crop.jpg" alt="main">
     </div>
     <div id="right">
       <div style="background-color:; height: 50px;">
